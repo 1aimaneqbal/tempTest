@@ -25,29 +25,14 @@ class calculator {
             int c;
             c = sc.nextInt();
 
-        a=sc.nextDouble();
-        b=sc.nextDouble();
-        while(true){
-        System.out.println("1)add\n2)multiply\n3)subtract\n4)divide\n5)exit"); 
-        System.out.println("\nenter your choice=");
-        int c;
-        c=sc.nextInt();
 
-        switch(c){
-            case 1:add(a,b);break;
-            // case 2:multiply(a,b);break;
-            // case 3:subtract(a,b);break;
-            // case 4:divide(a,b);break;
-            case 5:System.exit(0);
-            default:System.out.println("invalide input...");
-
-
+      
             switch (c) {
                 case 1:
                     add(a, b);
                     break;
                 case 2:
-                    mul(a, b);
+                    //mul(a, b);
                     break;
                 // case 3:subtract(a,b);break;
                 // case 4:divide(a,b);break;
