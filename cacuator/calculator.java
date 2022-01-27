@@ -4,16 +4,7 @@ class calculator {
 
     static void add(double a,double b){
         double r=a+b;
-
-        System.out.println("result="+r);
-    }static 
-      
-      void mul(double a,double b){
-        double r=a*b;
-        System.out.println("result="+r);
-
         System.out.println("result of addition="+r);
-
     }
     public static void main(String[] args) {
         double a,b;
@@ -29,7 +20,7 @@ class calculator {
 
         switch(c){
             case 1:add(a,b);break;
-            case 2:mul(a,b);break;
+            // case 2:multiply(a,b);break;
             // case 3:subtract(a,b);break;
             // case 4:divide(a,b);break;
             case 5:System.exit(0);
