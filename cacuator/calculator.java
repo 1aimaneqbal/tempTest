@@ -4,10 +4,16 @@ class calculator {
 
     static void add(double a,double b){
         double r=a+b;
+
         System.out.println("result="+r);
-    }static void mul(double a,double b){
+    }static 
+      
+      void mul(double a,double b){
         double r=a*b;
         System.out.println("result="+r);
+
+        System.out.println("result of addition="+r);
+
     }
     public static void main(String[] args) {
         double a,b;
